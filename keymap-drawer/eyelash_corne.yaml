@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  QWERTY:
+  Base:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -45,11 +45,11 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - {t: '$$mdi:keyboard-space$$', h: arrow}
-  - {t: '$$mdi:keyboard-return$$', h: symbol}
+  - {t: '$$mdi:keyboard-space$$', h: arrows}
+  - {t: '$$mdi:keyboard-return$$', h: symbols}
   - {t: mouse, h: toggle}
-  - bluetooth
-  symbol:
+  - bt_rgb
+  symbols:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -98,7 +98,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  arrow:
+  arrows:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  bluetooth:
+  bt_rgb:
   - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
