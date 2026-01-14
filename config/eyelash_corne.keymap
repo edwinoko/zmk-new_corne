@@ -100,10 +100,10 @@
 
         arrow_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                   &trans                       &trans    &trans    &kp UP        &trans        &kp LS(PIPE)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &kp LG(LS(PAGE_DOWN))  &trans  &kp LS(LG(PAGE_UP))  &kp HOME  &kp LEFT  &kp DOWN      &kp RIGHT     &kp END       &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                           &trans                       &kp LBKT  &kp RBKT  &kp LS(LBRC)  &kp LS(RBRC)  &trans        &trans
-                        &trans  &trans  &trans                                                                &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans                       &kp LS(LG(PAGE_UP))               &trans    &trans    &kp UP        &trans        &kp LS(PIPE)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &kp LG(J)  &trans                 &kp LG(L)  &kp HOME  &kp LEFT  &kp DOWN      &kp RIGHT     &kp END       &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans               &kp LS(LG(PAGE_DOWN))             &kp LBKT  &kp RBKT  &kp LS(LBRC)  &kp LS(RBRC)  &trans        &trans
+                        &trans  &trans  &trans                                                         &trans    &trans    &trans
             >;
 
             label = "arrows";
